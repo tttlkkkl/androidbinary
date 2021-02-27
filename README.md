@@ -1,8 +1,8 @@
 androidbinary
 =====
 
-[![Build Status](https://github.com/shogo82148/androidbinary/workflows/Test/badge.svg)](https://github.com/shogo82148/androidbinary/actions)
-[![GoDoc](https://godoc.org/github.com/shogo82148/androidbinary?status.svg)](https://godoc.org/github.com/shogo82148/androidbinary)
+[![Build Status](https://github.com/tttlkkkl/androidbinary/workflows/Test/badge.svg)](https://github.com/tttlkkkl/androidbinary/actions)
+[![GoDoc](https://godoc.org/github.com/tttlkkkl/androidbinary?status.svg)](https://godoc.org/github.com/tttlkkkl/androidbinary)
 
 Android binary file parser
 
@@ -14,7 +14,7 @@ Android binary file parser
 package main
 
 import (
-	"github.com/shogo82148/androidbinary/apk"
+	"github.com/tttlkkkl/androidbinary/apk"
 )
 
 func main() {
@@ -41,8 +41,8 @@ package main
 import (
 	"encoding/xml"
 
-	"github.com/shogo82148/androidbinary"
-	"github.com/shogo82148/androidbinary/apk"
+	"github.com/tttlkkkl/androidbinary"
+	"github.com/tttlkkkl/androidbinary/apk"
 )
 
 func main() {
@@ -64,7 +64,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/shogo82148/androidbinary"
+	"github.com/tttlkkkl/androidbinary"
 )
 
 func main() {

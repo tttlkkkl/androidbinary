@@ -1,4 +1,4 @@
-module github.com/shogo82148/androidbinary
+module github.com/tttlkkkl/androidbinary
 
 go 1.14
 
