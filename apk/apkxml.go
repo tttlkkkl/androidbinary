@@ -53,15 +53,16 @@ type MetaData struct {
 
 // Application is an application in an APK.
 type Application struct {
-	AllowTaskReparenting  androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android allowTaskReparenting,attr"`
-	AllowBackup           androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android allowBackup,attr"`
-	BackupAgent           androidbinary.String `xml:"http://schemas.android.com/apk/res/android backupAgent,attr"`
-	Debuggable            androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android debuggable,attr"`
-	Description           androidbinary.String `xml:"http://schemas.android.com/apk/res/android description,attr"`
-	Enabled               androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android enabled,attr"`
-	HasCode               androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android hasCode,attr"`
-	HardwareAccelerated   androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android hardwareAccelerated,attr"`
-	Icon                  androidbinary.String `xml:"http://schemas.android.com/apk/res/android icon,attr"`
+	AllowTaskReparenting androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android allowTaskReparenting,attr"`
+	AllowBackup          androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android allowBackup,attr"`
+	BackupAgent          androidbinary.String `xml:"http://schemas.android.com/apk/res/android backupAgent,attr"`
+	Debuggable           androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android debuggable,attr"`
+	Description          androidbinary.String `xml:"http://schemas.android.com/apk/res/android description,attr"`
+	Enabled              androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android enabled,attr"`
+	HasCode              androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android hasCode,attr"`
+	HardwareAccelerated  androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android hardwareAccelerated,attr"`
+	// Icon                  androidbinary.String `xml:"http://schemas.android.com/apk/res/android icon,attr"`
+	Icon                  androidbinary.String `xml:"icon,attr"`
 	KillAfterRestore      androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android killAfterRestore,attr"`
 	LargeHeap             androidbinary.Bool   `xml:"http://schemas.android.com/apk/res/android largeHeap,attr"`
 	Label                 androidbinary.String `xml:"http://schemas.android.com/apk/res/android label,attr"`
